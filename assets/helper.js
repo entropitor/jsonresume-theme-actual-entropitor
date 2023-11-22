@@ -79,6 +79,28 @@ const beautifyLink = (string) => {
 
 const validArray = (array) => array !== undefined && array.length > 0
 
+const groupWorkItems = (workItems) => {
+  return workItems.map((currentJob, index) => {
+    const nextJob = workItems[index + 1];
+    const nextJobSameCompany =
+      nextJob != null && nextJob.name === currentJob.name;
+    const previousJob = workItems[index - 1];
+    const prevJobSameCompany =
+      previousJob != null && previousJob.name === currentJob.name;
+    return {
+      ...currentJob,
+      jobCompany:
+        nextJobSameCompany && prevJobSameCompany
+          ? "work-series-middle"
+          : nextJobSameCompany
+            ? "work-series-start"
+            : prevJobSameCompany
+              ? "work-series-end"
+              : "work-no-series",
+    };
+  });
+};
+
 module.exports = {
   mdToHtml,
   calcLocation,
@@ -88,5 +110,6 @@ module.exports = {
   beautifyArray,
   arrayToPhrase,
   beautifyLink,
+  groupWorkItems,
   validArray
 }

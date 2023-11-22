@@ -2,8 +2,8 @@ if helper.validArray(resume.work)
   div(class='work margin-container-4')
     p(class='section-title no-alone-2') Experience
     div(class='container')
-      each work in resume.work
-        div(class='article margin-container-3')
+      each work in helper.groupWorkItems(resume.work)
+        div(class='article' class=work.jobCompany)
           div(class='header no-alone-1')
             div(class='table')
               div(class='left')
