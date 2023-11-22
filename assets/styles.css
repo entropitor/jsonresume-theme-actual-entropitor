@@ -364,6 +364,7 @@ li:first-child {
   font-weight: lighter;
   font-style: italic;
 }
+
 .work-series-start,
 .work-series-middle,
 .work-series-end,
@@ -391,17 +392,26 @@ li:first-child {
   width: 1px;
   margin-left: -20px;
 }
+.work-series-end:after {
+  top: 0;
+  height: 45px;
+}
 .work-series-start:after {
   height: calc(100% - 15px);
 }
-.work-series-start:before {
+.work-series-start:before,
+.work-series-middle:before,
+.work-series-end:before {
   content: "";
   background: black;
   position: absolute;
-  top: 5px;
+  top: 35px;
   left: 0;
   width: 10px;
   height: 10px;
   border-radius: 10px;
   margin-left: -25px;
+}
+.work-series-start:before {
+  top: 5px;
 }
