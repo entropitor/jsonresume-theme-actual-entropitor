@@ -96,7 +96,7 @@ const groupWorkItems = (workItems) => {
             ? "work-series-start"
             : prevJobSameCompany
               ? "work-series-end"
-              : "work-no-series",
+              : "work-series-no-overlap",
     };
   });
 };
