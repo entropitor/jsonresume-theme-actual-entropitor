@@ -366,6 +366,11 @@ li:first-child {
   font-style: italic;
 }
 
+.projects .entity {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
 .work-series-start,
 .work-series-middle,
 .work-series-end {

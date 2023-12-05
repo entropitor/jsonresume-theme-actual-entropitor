@@ -8,6 +8,7 @@ if helper.validArray(resume.projects)
             div(class='table')
               div(class='left')
                 span(class='title')=helper.arrayToPhrase(project.roles)
+                span(class='entity margin-text-1')=project.entity
                 span(class='subtitle margin-text-1')
                   a(href=project.url)=project.name
               div(class='right')
