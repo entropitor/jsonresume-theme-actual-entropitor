@@ -294,6 +294,7 @@ li:first-child {
 
 .education .title {
   font-size: 15px;
+  font-weight: bold;
 }
 .education .institution {
   font-size: 15px;
@@ -367,8 +368,7 @@ li:first-child {
 
 .work-series-start,
 .work-series-middle,
-.work-series-end,
-.work-series-no-overlap {
+.work-series-end {
   position: relative;
 }
 .work-series-end:not(:first-child),
