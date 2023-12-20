@@ -222,7 +222,7 @@ li:first-child {
   margin-bottom: 0;
 }
 .main .highlights li {
-  font-size: 14px;
+  font-size: 15px;
   list-style: none;
 }
 .main .highlights li:before {
@@ -286,7 +286,7 @@ li:first-child {
   list-style: none;
 }
 .links ul li {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .education .title {
@@ -306,7 +306,7 @@ li:first-child {
   font-weight: lighter;
 }
 .awards .summary {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .certificates .name {
@@ -333,7 +333,7 @@ li:first-child {
   font-size: 18px;
 }
 .skills .container .article li {
-  font-size: 14px;
+  font-size: 15px;
   list-style: none;
 }
 
@@ -341,14 +341,14 @@ li:first-child {
   list-style: none;
 }
 .languages ul li {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .interests ul {
   list-style: none;
 }
 .interests ul li {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .projects .entity {
@@ -360,7 +360,7 @@ li:first-child {
   font-size: 15px;
 }
 .references q {
-  font-size: 14.5px;
+  font-size: 15px;
   font-weight: lighter;
   font-style: italic;
 }
