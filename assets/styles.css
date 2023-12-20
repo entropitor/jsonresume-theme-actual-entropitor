@@ -22,7 +22,7 @@ p {
 
 @media not print {
   body {
-    margin: 30px 0 50px 0;
+    margin: 20px 0 30px 0;
   }
 }
 @page {
@@ -66,12 +66,12 @@ li:first-child {
 .table .main {
   display: table-cell;
   width: 70%;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 .table .side {
   display: table-cell;
   width: 30%;
-  padding-left: 50px;
+  padding-left: 30px;
   text-align: right;
 }
 
@@ -85,31 +85,31 @@ li:first-child {
 .section-title {
   font-size: 26px;
   font-weight: normal;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
 }
 
 .margin-container-2:not(:first-child) {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .margin-container-3:not(:first-child) {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .margin-container-4:not(:first-child) {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .padding-container-2 {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .padding-top-container-2 {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .padding-bottom-container-2 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .margin-text-1 {
@@ -196,17 +196,17 @@ li:first-child {
   font-weight: bold;
 }
 .markdown ul, .markdown ol {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .markdown img {
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
   max-width: 1000px;
   text-align: center;
 }
 .markdown blockquote {
-  margin: 20px 0;
-  padding: 15px 20px;
+  margin: 15px 0;
+  padding: 15px 15px;
 }
 .markdown blockquote p {
   display: inline;
@@ -325,8 +325,8 @@ li:first-child {
 }
 .skills .container .article {
   break-inside: avoid-column;
-  min-width: 120px;
-  padding-top: 20px;
+  min-width: 130px;
+  padding-top: 15px;
 }
 .skills .container .article span {
   display: block;
