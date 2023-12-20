@@ -220,9 +220,9 @@ li:first-child {
   display: block;
   padding: 0 0px;
   margin-bottom: 0;
-  columns: 2;
-  column-width: 310px;
-  column-gap: 10px;
+  /* columns: 2; */
+  /* column-width: 310px; */
+  /* column-gap: 10px; */
 }
 .main .highlights li {
   font-size: 14px;
