@@ -218,11 +218,8 @@ li:first-child {
 .main .highlights {
   width: auto;
   display: block;
-  padding: 0 0px;
+  padding: 0;
   margin-bottom: 0;
-  /* columns: 2; */
-  /* column-width: 310px; */
-  /* column-gap: 10px; */
 }
 .main .highlights li {
   font-size: 14px;
@@ -325,8 +322,6 @@ li:first-child {
 }
 .skills .container {
   display: block;
-  /* columns: 2; */
-  column-gap: 10px;
 }
 .skills .container .article {
   break-inside: avoid-column;
@@ -356,6 +351,11 @@ li:first-child {
   font-size: 14px;
 }
 
+.projects .entity {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
 .references .name {
   font-size: 15px;
 }
@@ -365,20 +365,17 @@ li:first-child {
   font-style: italic;
 }
 
-.projects .entity {
-  font-size: 15px;
-  font-weight: lighter;
-}
-
 .work-series-start,
 .work-series-middle,
 .work-series-end {
   position: relative;
 }
+
 .work-series-end:not(:first-child),
 .work-series-middle:not(:first-child) {
   padding-top: 20px;
 }
+
 .work-series-start:not(:first-child),
 .work-series-no-overlap:not(:first-child) {
   margin-top: 20px;
@@ -396,13 +393,16 @@ li:first-child {
   width: 1px;
   margin-left: -20px;
 }
+
 .work-series-end:after {
   top: 0;
   height: 45px;
 }
+
 .work-series-start:after {
   height: calc(100% - 15px);
 }
+
 .work-series-start:before,
 .work-series-middle:before,
 .work-series-end:before {
@@ -416,6 +416,7 @@ li:first-child {
   border-radius: 10px;
   margin-left: -25px;
 }
+
 .work-series-start:before {
   top: 5px;
 }
