@@ -341,9 +341,12 @@ li:first-child {
   font-size: 15px;
 }
 
-.projects .entity {
+.projects .title {
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bold;
+}
+.projects .subtitle {
+  font-size: 15px;
 }
 
 .references .name {

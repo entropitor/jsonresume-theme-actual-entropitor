@@ -7,14 +7,13 @@ if helper.validArray(resume.projects)
           div(class='header no-alone-1')
             div(class='table')
               div(class='left')
-                span(class='title')=helper.arrayToPhrase(project.roles)
-                span(class='entity margin-text-1')=project.entity
+                span(class='title')=helper.arrayToPhrase(project.roles) + ' at ' + project.entity
                 span(class='subtitle margin-text-1')
                   a(href=project.url)=project.name
               div(class='right')
                 span(class='date')=helper.calcDateRange(project.startDate, project.endDate)
-          div(class='summary markdown margin-text-4')!=helper.mdToHtml(project.description)
+          div(class='summary markdown margin-text-1')!=helper.mdToHtml(project.description)
           if helper.validArray(project.highlights)
-            ul(class='highlights margin-text-4 no-break')
+            ul(class='highlights margin-text-1 no-break')
               each highlight in project.highlights
                 li=highlight

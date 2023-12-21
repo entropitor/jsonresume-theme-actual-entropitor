@@ -1,6 +1,10 @@
 .projects {
-  .entity {
-    font-size: 15px;
-    font-weight: lighter;
+  .title {
+    font-size: $font-size-small;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: $font-size-small;
   }
 }
