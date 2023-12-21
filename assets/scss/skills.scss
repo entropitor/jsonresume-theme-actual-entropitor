@@ -5,18 +5,17 @@
     display: block;
 
     .article {
-      break-inside: avoid-column;
-      min-width: ($content-width * math.div($content-side-percentage, 100%) - $space-1 - $space-4 ) * 0.5;
-      padding-top: $space-2;
-
-      span {
-        display: block;
-        font-size: $font-size-large;
+      &:not(:first-child) {
+        padding-top: $space-2;
       }
 
-      li {
+      .name {
+        font-size: $font-size-small;
+        font-weight: bold;
+      }
+
+      .keywords {
         font-size: $font-size-xsmall;
-        list-style: none;
       }
     }
   }

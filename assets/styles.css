@@ -316,18 +316,15 @@ li:first-child {
 .skills .container {
   display: block;
 }
-.skills .container .article {
-  break-inside: avoid-column;
-  min-width: 130px;
+.skills .container .article:not(:first-child) {
   padding-top: 15px;
 }
-.skills .container .article span {
-  display: block;
-  font-size: 18px;
-}
-.skills .container .article li {
+.skills .container .article .name {
   font-size: 15px;
-  list-style: none;
+  font-weight: bold;
+}
+.skills .container .article .keywords {
+  font-size: 15px;
 }
 
 .languages ul {
