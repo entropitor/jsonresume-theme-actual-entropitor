@@ -271,7 +271,7 @@ li:first-child {
 }
 .basics .side {
   vertical-align: middle;
-  padding-left: 0;
+  padding-right: 1px;
   padding-top: 15px;
 }
 .basics .side .contact {
