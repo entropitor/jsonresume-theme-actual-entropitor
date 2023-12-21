@@ -278,8 +278,8 @@ li:first-child {
   list-style-type: none;
 }
 .basics .side .contact li {
-  font-size: 18px;
-  line-height: 1.6em;
+  font-size: 16px;
+  line-height: 1.35em;
 }
 
 .links ul {

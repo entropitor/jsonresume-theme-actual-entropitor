@@ -69,9 +69,12 @@ const arrayToPhrase = (array) => {
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
-const beautifyLink = (string) => {
+const beautifyLink = (string, boldDomain = true) => {
   let s = string.trim().replace(/^(?:https?:\/\/)?(?:www\.)?/i, '')
   s = s.endsWith('/') ? s.slice(0, -1) : s
+  if (!boldDomain) {
+    return s
+  }
   s = s.split('/')
   s[0] = `<strong>${s[0]}</strong>`
   return s.join('/')
