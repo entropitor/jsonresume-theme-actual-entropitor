@@ -20,18 +20,18 @@
 
   .left {
     display: table-cell;
+  }
 
-    .title {
-      font-size: $font-size-large;
-      font-weight: bold;
-      display: block;
-    }
+  .title {
+    font-size: $font-size-large;
+    font-weight: bold;
+    display: block;
+  }
 
-    .subtitle {
-      font-size: $font-size-medium;
-      font-weight: lighter;
-      display: block;
-    }
+  .subtitle {
+    font-size: $font-size-medium;
+    font-weight: lighter;
+    display: block;
   }
 
   .right {

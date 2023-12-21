@@ -232,12 +232,12 @@ li:first-child {
 .main .left {
   display: table-cell;
 }
-.main .left .title {
+.main .title {
   font-size: 18px;
   font-weight: bold;
   display: block;
 }
-.main .left .subtitle {
+.main .subtitle {
   font-size: 16px;
   font-weight: lighter;
   display: block;
