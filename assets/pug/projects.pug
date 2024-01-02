@@ -1,13 +1,13 @@
 if helper.validArray(resume.projects)
   div(class='projects margin-container-4')
-    p(class='section-title no-alone-2') Talks
+    p(class='section-title no-alone-2')= resume.projectsTitle || 'Talks'
     div(class='container')
       each project in resume.projects
         div(class='article margin-container-3')
           div(class='header no-alone-1')
             div(class='table')
               div(class='left')
-                span(class='title')=helper.arrayToPhrase(project.roles) + ' at ' + project.entity
+                span(class='title')=helper.arrayToPhrase(project.roles) + (project.entity ? (' at ' + project.entity) : '')
                 span(class='subtitle margin-text-1')
                   a(href=project.url)=project.name
               div(class='right')
